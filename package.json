@@ -19,6 +19,6 @@
   "private": false,
   "dependencies": {
     "javascript-stringify": "^1.6.0",
-    "prerender-spa-plugin": "^3.2.1"
+    "prerender-spa-plugin": "git+https://github.com/inventer13/prerender-spa-plugin.git"
   }
 }
