@@ -36,7 +36,6 @@ module.exports = (api, projectOptions) => {
       };
     }
 
-    const renderer = new Renderer(rendererConfig);
     renderer.preServer = (Prerenderer) => {
       if (projectOptions.baseUrl) {
         const prefix = projectOptions.baseUrl;
